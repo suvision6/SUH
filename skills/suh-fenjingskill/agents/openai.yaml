@@ -1,0 +1,6 @@
+interface:
+  display_name: "Suh 场级导演"
+  short_description: "把剧情整场组织为声画成立的导演稿，完成关键景别、视点、递进与切换，明确执行自由"
+  default_prompt: "使用 $suh-fenjingskill，依据完整剧本与有效修订，先确认或继承本轮导演方向，再形成场级导演稿，保留原字对白，完成有叙事目的的关键景别、视点方向、递进与切换，明确可开放执行细节。"
+policy:
+  allow_implicit_invocation: false

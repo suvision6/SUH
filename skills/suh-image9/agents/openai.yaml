@@ -1,0 +1,6 @@
+interface:
+  display_name: "Suh 叙事动态预演"
+  short_description: "完整叙事预演或按需快检镜头关系，黑白简笔表达，保留来源与实际检查边界"
+  default_prompt: "使用 $suh-image9 按本次范围完成完整预演或指定镜头关系的静态快检，交必要简格绘图输入并说明未验证项。"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SUH 美术"
+  short_description: "探索概念、深化视觉设计、检验代表性资产，再统一制作与返修"
+  default_prompt: "请用 $suh-art 完成本次美术工作，沿用我提供的剧本、方向或资产，只处理当前需要的范围。"

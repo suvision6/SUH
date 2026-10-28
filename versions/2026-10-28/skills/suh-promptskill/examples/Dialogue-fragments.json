@@ -1,0 +1,16 @@
+{
+  "format": "suh-delivery/1",
+  "kind": "prompt",
+  "title": "跨项原字复组的导出夹具",
+  "evidence_scope": "Fictional technical fixture, not an adopted film plan or proof of seamless generated speech.",
+  "source_units": [
+    {"id": "S01", "text": "程岚站在关闭的门内，同一次发言原字为：先别开门，等我回来。许声在门外，不露脸，不回答。"}
+  ],
+  "dialogue": [
+    {"id": "D01", "speaker": "程岚", "placement": "画内", "text": "先别开门，等我回来。"}
+  ],
+  "items": [
+    {"id": "G01", "source_ids": ["S01"], "body": "夜间档案室内，程岚站在关闭的门内，面对门扇。门扇挡住门外许声，他不露脸、不发声。程岚开始同一次发言：[dialogue:D01@0:5] 发言仍未完成，门保持关闭。"},
+    {"id": "G02", "source_ids": ["S01"], "dialogue_placements": {"D01": "画外持续"}, "body": "夜间档案室内，观看仍然关闭的门扇，门外许声不露脸、不发声。程岚在室内门旁，同一次发言已经说到逗号后，从未说完处延续，不重复句头：[dialogue:D01@5:10] 说完后门仍关闭，不新增回答。"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "format": "suh-generation-profile/1",
+  "id": "user-current-entry-2026-10-03",
+  "scope": "current_user_selected_entry",
+  "duration_seconds": {
+    "min": 4,
+    "max": 30
+  },
+  "source": {
+    "kind": "user_request",
+    "reference": "Sentinel_fa340ba32f608191a2739d3731411252",
+    "summary": "当前用户要求每个提交生成单元总长为整数秒，指定入口范围为4–30秒（含边界）；仅总长要求整数，Cut切换点和各Cut时长（含末Cut）可以为小数。此入口范围不代表所有provider的共同能力。"
+  }
+}

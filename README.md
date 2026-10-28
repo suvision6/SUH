@@ -2,7 +2,16 @@
 
 用于剧情类 AI 影像工作的四个独立 Skill。各阶段可以单独使用，也可按用户安排交接；Image9 是可选预演环节，不自动推进下一阶段，不把本地检查当作用户采用或媒体效果验收。
 
-| Skill | 明确调用名称 | 当前版本 | 职责 |
+## 版本快照
+
+- 最新发布快照：[2026-10-28](versions/2026-10-28/README.md)
+- 历史发布快照：根目录 [`skills/`](skills/) 与 [`MANIFEST.json`](MANIFEST.json)，保留 2026-10-16 内容
+
+最新快照位于 `versions/2026-10-28/skills/`，四个完整 Skill 目录与对应安装来源逐字节一致。旧目录继续保留，不因新增快照而被替换。
+
+## 历史版本（2026-10-16）
+
+| Skill | 明确调用名称 | 历史版本 | 职责 |
 | --- | --- | --- | --- |
 | [美术](skills/suh-art/SKILL.md) | `$suh-art` | `0.0.2-candidate` | 美术概念、资产设计、代表性检验与返修 |
 | [场级导演](skills/suh-fenjingskill/SKILL.md) | `$suh-fenjingskill` | `0.0.4-engineering.1` | 剧情理解、人物调度、摄影、声画及导演稿 |

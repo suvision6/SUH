@@ -1,0 +1,852 @@
+{
+  "format": "suh-skill-source-publication/1",
+  "repository": "suvision6/SUH",
+  "branch": "main",
+  "snapshot_date": "2026-10-28",
+  "versions": {
+    "suh-art": "0.0.3-execution.1",
+    "suh-fenjingskill": "0.0.5-execution.1",
+    "suh-image9": "0.0.4-engineering.3.handoff.1",
+    "suh-promptskill": "0.0.4-prompt.3.engineering.1.handoff.1"
+  },
+  "packaging": "complete four-skill runtime directories copied byte-for-byte from the active local installation",
+  "skill_file_count": 166,
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1060,
+      "sha256": "03de3aceb5a45a0fef0749b0e83e0af3c9d06c0d348f681c78a4b1f515365d68"
+    },
+    {
+      "path": "skills/suh-art/SKILL.md",
+      "bytes": 11250,
+      "sha256": "5f6e1c798bf45b4d4c1bb5d3a6d32561585aefebe032126fd4b2e2b585f47d32"
+    },
+    {
+      "path": "skills/suh-art/THIRD_PARTY_NOTICES.md",
+      "bytes": 1774,
+      "sha256": "0ffdedf7a1c3daed2ef70a69007ffe35969ab9435f58acd265c5b6856c88c2c7"
+    },
+    {
+      "path": "skills/suh-art/VERSION",
+      "bytes": 18,
+      "sha256": "2af2cd4172ce8dd1cfef0301243ebc78bbbfeeaba64ae43fab6bd42d014cd1b6"
+    },
+    {
+      "path": "skills/suh-art/agents/openai.yaml",
+      "bytes": 290,
+      "sha256": "2a0b235813c53d420feb65d8030913731074cefb405c807f464c86abc71798ed"
+    },
+    {
+      "path": "skills/suh-art/licenses/Apache-2.0.txt",
+      "bytes": 11395,
+      "sha256": "6f82dcfeb95a1c0a0452180a3b16f21bf82111780018fed59d95a052b5b75f6c"
+    },
+    {
+      "path": "skills/suh-art/licenses/GameDev-NOTICE.txt",
+      "bytes": 883,
+      "sha256": "2dcb65b1c5be24e5ba11e937f3996100f4e980d8cf8ac5b30ba1d70dae6c40f8"
+    },
+    {
+      "path": "skills/suh-art/licenses/Higgsfield-MIT.txt",
+      "bytes": 1070,
+      "sha256": "9da656d6226936542be59478dbf775057dfdeade2629d35e0832108c2b7aecc0"
+    },
+    {
+      "path": "skills/suh-art/licenses/Scenario-MIT.txt",
+      "bytes": 1065,
+      "sha256": "fbe0c4a68fd93b739dc3ecbba960581600b8db3c3a8d57feba069f2f22865dfb"
+    },
+    {
+      "path": "skills/suh-art/references/concept-and-design.md",
+      "bytes": 8087,
+      "sha256": "004db6e7128c73ed7ebe1d28792598fd28dda9e9e6e97ec88adacbc89f135c33"
+    },
+    {
+      "path": "skills/suh-art/references/image-work.md",
+      "bytes": 8258,
+      "sha256": "afa6559e8b0fd33209d6d2e8e10a9c84e9fac75adae97d3989068b39a82e2b6a"
+    },
+    {
+      "path": "skills/suh-art/references/outputs-and-handoff.md",
+      "bytes": 6830,
+      "sha256": "d61269059a21123780d52fbcacee6e44380de40d17cdb172b4965678afa9d459"
+    },
+    {
+      "path": "skills/suh-art/references/representative-check.md",
+      "bytes": 4136,
+      "sha256": "6dc27fdc4929190171fd322689faab65df809fd82f9264404e51f094a91f4d95"
+    },
+    {
+      "path": "skills/suh-fenjingskill/CHANGELOG.md",
+      "bytes": 3805,
+      "sha256": "5fdc77cefb905cd2c5c53818e9d722ffdd5d3a3eb60ae98d1f47dfd034cca560"
+    },
+    {
+      "path": "skills/suh-fenjingskill/SKILL.md",
+      "bytes": 6472,
+      "sha256": "49ee7a67d96f1cb7c5e22d28ab2bc7a47559e3f81945ffd232a87556d484a8d9"
+    },
+    {
+      "path": "skills/suh-fenjingskill/VALIDATION.md",
+      "bytes": 2634,
+      "sha256": "66cd956afe1c94f6a09d59b37ab183cc9e5cd45e05dfb713335fb4d1589a4a09"
+    },
+    {
+      "path": "skills/suh-fenjingskill/VERSION",
+      "bytes": 18,
+      "sha256": "b2d66d65890bb40d8b0b2ced32238c85a42b1fc7157d17784d906d3f5b1746ff"
+    },
+    {
+      "path": "skills/suh-fenjingskill/agents/openai.yaml",
+      "bytes": 503,
+      "sha256": "2adf1fde062ccefc09277f95b958f6e96d9e4590357b17c98c78b1bf55c41ee5"
+    },
+    {
+      "path": "skills/suh-fenjingskill/examples/Continuation-and-feedback.md",
+      "bytes": 6422,
+      "sha256": "b7e7444e4d47218eee9477cde6810487ce0ff04ef2858244d9ef8af8f4ee189e"
+    },
+    {
+      "path": "skills/suh-fenjingskill/examples/Dispatch-delivery.json",
+      "bytes": 13292,
+      "sha256": "382d8c10f56ff4a47c58576251092335b244580912389344c736c9093b678ff8"
+    },
+    {
+      "path": "skills/suh-fenjingskill/examples/Dispatch-room.md",
+      "bytes": 15927,
+      "sha256": "8e284d55a2ae66eefe1fd1d3963a2dcdb19b3937d2e5afd04d247f9a5a0e6aa5"
+    },
+    {
+      "path": "skills/suh-fenjingskill/examples/Workflow-examples.md",
+      "bytes": 1837,
+      "sha256": "98aaef1f3b0f69e718a2c9c32034407886dbffee71d8dd75b2931d6b66dca0f7"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/Adoption-and-routing.md",
+      "bytes": 305,
+      "sha256": "33a68c673e298d73b08abad1fa696438325bf35d553874af100dbfdef3620c24"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/Delivery-tool.md",
+      "bytes": 6632,
+      "sha256": "e256143f813d3126bab3aa2b2682e63d46fd970ef70ee33aae9a93f1e812bf1c"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/Dp-reference.md",
+      "bytes": 26636,
+      "sha256": "f2a4e650978bdab3fb0dcfa140a1ddb70383870fd322233f66f7d485bae207c9"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/Generation-executability.md",
+      "bytes": 3897,
+      "sha256": "a38bd239c46d07881659374c6e043f72d0c4c58d182a4191981c9d0d6caffa9c"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/Handoff.md",
+      "bytes": 8588,
+      "sha256": "877d3e2402f3cb000ac95449cab3d798585f070fa3ad53ea28c264686032db36"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/Project-bible.md",
+      "bytes": 2137,
+      "sha256": "a1574d8a6f6e68ab5a757386d6f16405fa32900fcaecf0654b1a713ac20c0769"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/Review-delivery.md",
+      "bytes": 5570,
+      "sha256": "55a29c588faf23bfc2c767257652c23b0609625e740409ca96bd45d111b3a813"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/Revision-and-handoff.md",
+      "bytes": 4586,
+      "sha256": "d874b549d8447c63a1e3d746a79d3efbb554be9bcbc3650c88ab3c306ac9a328"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/Scene-direction.md",
+      "bytes": 8493,
+      "sha256": "ad020684812d085b64397597a2317925983aca26b9d805c43343f216bcd9b298"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/Source-absorption.md",
+      "bytes": 1067,
+      "sha256": "ee49e916a390abcdc4fa54a3fa4d507dce52c9b1266ac007a4c4a9eeec440826"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/Spatial-basis.md",
+      "bytes": 3258,
+      "sha256": "7d6752365877d98d73798d251b8ea42a07995776587590bbd2e030042ae96b72"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/Workflow-state.md",
+      "bytes": 6518,
+      "sha256": "2b7a6072164d81c54dc0171257fe520679c43f2930c5895c742d9b4cdb3c0c30"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/Workflow.md",
+      "bytes": 26605,
+      "sha256": "1e7b6828bb2317e438a67222e11c635a9e5d4d7e97b5c1edd80b9cea962155cf"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/director-methods.md",
+      "bytes": 3167,
+      "sha256": "58ae057a55344bb393b6735c40f4a3164b4d3ab6fa1ba8d247f68e865577e966"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/directors/director-bong-joon-ho.md",
+      "bytes": 973,
+      "sha256": "8b313c70a811f3dd63297b9b8cdb7ece2e1801beea6d4c6d514f57e9b8d64969"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/directors/director-christopher-nolan.md",
+      "bytes": 1077,
+      "sha256": "d4fe64163dda99a42492ac9c6c2ca7c19a549a0c6b31167842e86a629f1dd5c9"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/directors/director-coen-brothers.md",
+      "bytes": 919,
+      "sha256": "bfba67b7e74a3319f8883c9e409c65641706cde8dd832c77f432ccd22fc7d787"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/directors/director-david-fincher.md",
+      "bytes": 1038,
+      "sha256": "bd8fe13d568165a76b96265eed45a3dfecd53de25d6c81cafa02d683abbd729c"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/directors/director-david-lynch.md",
+      "bytes": 966,
+      "sha256": "025d0a543c6e5e8a42840ea95e3ac0a437d616d4d0525ac88da41fb0caa89523"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/directors/director-denis-villeneuve.md",
+      "bytes": 951,
+      "sha256": "7c1d059e953e5b33e78a042b7c7ed9f21f8804dfbf2787fb3ad4c849d2e71f54"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/directors/director-francis-ford-coppola.md",
+      "bytes": 941,
+      "sha256": "42078cc4f55809e99ef25a2639d853fc451df35916c7598dff7447e574b94268"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/directors/director-hirokazu-koreeda.md",
+      "bytes": 913,
+      "sha256": "be7bf8224f2c2283128ccab7608901b19159325df82b5f308a3ac03bece3983c"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/directors/director-hou-hsiao-hsien.md",
+      "bytes": 934,
+      "sha256": "e213944ca6bddb641a7a5c71ec8a83834c7fe5b9aa044ecbc8f05f5cd2744b6f"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/directors/director-paolo-sorrentino.md",
+      "bytes": 891,
+      "sha256": "1f840fe20261f2bc7e7d4cd035fc5a83b0801fc2ff3a0d139ef8b5a494d3c64c"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/directors/director-park-chan-wook.md",
+      "bytes": 967,
+      "sha256": "ea84c8cdb337feeba5e909c2774afb3261413050d5e2df455a064005717c30e6"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/directors/director-quentin-tarantino.md",
+      "bytes": 951,
+      "sha256": "a7be64b54bb9fe9a7e3afb83779970ebf47e8f1e5dfc02b7c2d5f850e8057eb1"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/directors/director-stanley-kubrick.md",
+      "bytes": 939,
+      "sha256": "5893c2bd4d100e9d5da42277653688d4cf47491ab7f803b20f36620006502222"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/directors/director-steven-spielberg.md",
+      "bytes": 996,
+      "sha256": "790dddeaf8fca1ae4ead54f829509d9d90e132d0f4c4bc6fa00e397898a6781f"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/directors/director-wes-anderson.md",
+      "bytes": 879,
+      "sha256": "25f19c0ea44b4d30a92aba3cdcca102bf1c7b4a8b4c6a5bdf26f474de48c77cf"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/directors/director-wong-kar-wai.md",
+      "bytes": 967,
+      "sha256": "1879e0ebcbe1a1e443610d99504c207f06ab4d2639f262d36eab8a42037b761e"
+    },
+    {
+      "path": "skills/suh-fenjingskill/references/speech-and-dialogue.md",
+      "bytes": 6999,
+      "sha256": "db902d8bf39b64577ebb567169a7d51e0a3db810d58cb793eef41aad402018a8"
+    },
+    {
+      "path": "skills/suh-fenjingskill/scripts/Review-workbook.mjs",
+      "bytes": 4417,
+      "sha256": "a2efeccdb875aac071e50932449254a80e8402e6d874668c432222f911b712d6"
+    },
+    {
+      "path": "skills/suh-fenjingskill/scripts/deliver.py",
+      "bytes": 9931,
+      "sha256": "9e6d689a728b8c532baab3ceab341a47ac2189f9c89440fe242e60cc04a52d0b"
+    },
+    {
+      "path": "skills/suh-fenjingskill/scripts/review_delivery.py",
+      "bytes": 23672,
+      "sha256": "6c7ccda9a0390207f3ffb2043d187f71f01ff5c62402b32f5b65e8b5329733da"
+    },
+    {
+      "path": "skills/suh-fenjingskill/scripts/sum_duration_ranges.py",
+      "bytes": 1503,
+      "sha256": "3e7ccb143410e4d35fef18ed2a4bf399463625596b057ef17cc75483de5bf4fa"
+    },
+    {
+      "path": "skills/suh-fenjingskill/scripts/workflow_state.py",
+      "bytes": 23420,
+      "sha256": "a6ca0b3136337c775f73d84f8015902b9744d9552b8502d7b414f53b203a561a"
+    },
+    {
+      "path": "skills/suh-fenjingskill/templates/Scene-master.md",
+      "bytes": 5458,
+      "sha256": "b2e956ff1950b1fab9f69a834dbdeaf4788487891ce845a0d7be9e72fbe4c716"
+    },
+    {
+      "path": "skills/suh-image9/CHANGELOG.md",
+      "bytes": 4337,
+      "sha256": "96f0bf2afc63ba36be0ec507b9a7a865c3a267183cd33f48b969bf9a7e400c73"
+    },
+    {
+      "path": "skills/suh-image9/SKILL.md",
+      "bytes": 7150,
+      "sha256": "ad078a49cdd7c2331c11ae82676b8462f651f260c9198300ff66a7d1b50c3fc0"
+    },
+    {
+      "path": "skills/suh-image9/VALIDATION.md",
+      "bytes": 4528,
+      "sha256": "b96cc5d627f64bcc3536e481da539daf007c2e128c1491624f39b86e32aeb2e8"
+    },
+    {
+      "path": "skills/suh-image9/VERSION",
+      "bytes": 30,
+      "sha256": "f24ae86844de891e31a2c052204cf0099db5c5f4ff2a8cdb565193bc95c3e8cb"
+    },
+    {
+      "path": "skills/suh-image9/agents/openai.yaml",
+      "bytes": 384,
+      "sha256": "73824c0b37768d9105be807236ae5af55ccb48bd0b71aa327e968b524b62f75d"
+    },
+    {
+      "path": "skills/suh-image9/examples/Theater-delivery.json",
+      "bytes": 13598,
+      "sha256": "0a306e45f0a6487ef93d3c4e0a33d75d86086cd94bddb2d5fcfd74dc7946e56b"
+    },
+    {
+      "path": "skills/suh-image9/examples/Theater-previs.md",
+      "bytes": 15729,
+      "sha256": "eb4c6f6c34e96b8182cd9d859f82530101549a21fb4ace5ffc5e4e8004782e61"
+    },
+    {
+      "path": "skills/suh-image9/examples/Three-entry-previs.md",
+      "bytes": 6937,
+      "sha256": "22fdcf5ae7a09b5ca27d2959ae17a644663b528fd5ecad8b7f08d5c9bfb1002a"
+    },
+    {
+      "path": "skills/suh-image9/examples/Workflow-examples.md",
+      "bytes": 373,
+      "sha256": "d2f6b2f50c64a8b49f481946fbc9ce4ba3929acdef972e197cb95d5916b7de61"
+    },
+    {
+      "path": "skills/suh-image9/references/Delivery-tool.md",
+      "bytes": 7221,
+      "sha256": "0efe9b0b2033ef762fa28ef5f180eda2a8a98b2447d0db51acdd2f95fdebf217"
+    },
+    {
+      "path": "skills/suh-image9/references/Dp-reference.md",
+      "bytes": 26636,
+      "sha256": "f2a4e650978bdab3fb0dcfa140a1ddb70383870fd322233f66f7d485bae207c9"
+    },
+    {
+      "path": "skills/suh-image9/references/Generation-executability.md",
+      "bytes": 3897,
+      "sha256": "a38bd239c46d07881659374c6e043f72d0c4c58d182a4191981c9d0d6caffa9c"
+    },
+    {
+      "path": "skills/suh-image9/references/Handoff.md",
+      "bytes": 8299,
+      "sha256": "d0d6d14c14f824c77ea0befb2480000108c51a86e91a9d6e4e05cb4eb39f5494"
+    },
+    {
+      "path": "skills/suh-image9/references/Input-and-delivery.md",
+      "bytes": 8618,
+      "sha256": "ea3f78f6c2e8d4ea54a47ecf0803539cd6f5e3701330adea4c27347f327b9789"
+    },
+    {
+      "path": "skills/suh-image9/references/Media-execution.md",
+      "bytes": 9033,
+      "sha256": "0567f4d06cd7d9484af65352a61b5387fa9f7c3b8b061b4e7868e3b11fd90ed1"
+    },
+    {
+      "path": "skills/suh-image9/references/Media-review.md",
+      "bytes": 5096,
+      "sha256": "596d1dd9b7cde0c8e6893989cb37f9c7718f44b7c1ad5cf5daedfc100d72bfb9"
+    },
+    {
+      "path": "skills/suh-image9/references/Media-tool.md",
+      "bytes": 11599,
+      "sha256": "e259d713dd652e516fd8d4232e0b7ecbf4ca904655fb67d33a8c59b5ec66fd2d"
+    },
+    {
+      "path": "skills/suh-image9/references/Narrative-previs.md",
+      "bytes": 4166,
+      "sha256": "3222d3e97457ee612a54871d86ca6eeae103e45d349c440f9837151fca1a3fc0"
+    },
+    {
+      "path": "skills/suh-image9/references/Project-bible.md",
+      "bytes": 2137,
+      "sha256": "a1574d8a6f6e68ab5a757386d6f16405fa32900fcaecf0654b1a713ac20c0769"
+    },
+    {
+      "path": "skills/suh-image9/references/Review-delivery.md",
+      "bytes": 5570,
+      "sha256": "55a29c588faf23bfc2c767257652c23b0609625e740409ca96bd45d111b3a813"
+    },
+    {
+      "path": "skills/suh-image9/references/Rule-sources.md",
+      "bytes": 1103,
+      "sha256": "23d8dcf1f613b00f68c8fadc2da086c1985ec4923c04649c370ea79532f35119"
+    },
+    {
+      "path": "skills/suh-image9/references/Spatial-and-state.md",
+      "bytes": 8046,
+      "sha256": "03d360103c45105a1be5a3e014455adb82c9abbbab0548aae884645e3929c2db"
+    },
+    {
+      "path": "skills/suh-image9/references/Spatial-basis.md",
+      "bytes": 3258,
+      "sha256": "7d6752365877d98d73798d251b8ea42a07995776587590bbd2e030042ae96b72"
+    },
+    {
+      "path": "skills/suh-image9/references/Style-and-reference-roles.md",
+      "bytes": 4020,
+      "sha256": "628295e262903eaca4dd7d74e369c5127d8813e2ebbb4451f17e6910c7e0e611"
+    },
+    {
+      "path": "skills/suh-image9/references/Workflow-state.md",
+      "bytes": 6419,
+      "sha256": "ba5e04faffb1b164f9d13b0f5f604f2dde60fdddf2466252fc471f7734d70733"
+    },
+    {
+      "path": "skills/suh-image9/references/Workflow.md",
+      "bytes": 16169,
+      "sha256": "2d42df8c8d9bdcd731972eb014cfc7bc41002f90f6dae52c6e14c0b3ff32cbb6"
+    },
+    {
+      "path": "skills/suh-image9/references/director-methods.md",
+      "bytes": 3167,
+      "sha256": "58ae057a55344bb393b6735c40f4a3164b4d3ab6fa1ba8d247f68e865577e966"
+    },
+    {
+      "path": "skills/suh-image9/references/directors/director-bong-joon-ho.md",
+      "bytes": 973,
+      "sha256": "8b313c70a811f3dd63297b9b8cdb7ece2e1801beea6d4c6d514f57e9b8d64969"
+    },
+    {
+      "path": "skills/suh-image9/references/directors/director-christopher-nolan.md",
+      "bytes": 1077,
+      "sha256": "d4fe64163dda99a42492ac9c6c2ca7c19a549a0c6b31167842e86a629f1dd5c9"
+    },
+    {
+      "path": "skills/suh-image9/references/directors/director-coen-brothers.md",
+      "bytes": 919,
+      "sha256": "bfba67b7e74a3319f8883c9e409c65641706cde8dd832c77f432ccd22fc7d787"
+    },
+    {
+      "path": "skills/suh-image9/references/directors/director-david-fincher.md",
+      "bytes": 1038,
+      "sha256": "bd8fe13d568165a76b96265eed45a3dfecd53de25d6c81cafa02d683abbd729c"
+    },
+    {
+      "path": "skills/suh-image9/references/directors/director-david-lynch.md",
+      "bytes": 966,
+      "sha256": "025d0a543c6e5e8a42840ea95e3ac0a437d616d4d0525ac88da41fb0caa89523"
+    },
+    {
+      "path": "skills/suh-image9/references/directors/director-denis-villeneuve.md",
+      "bytes": 951,
+      "sha256": "7c1d059e953e5b33e78a042b7c7ed9f21f8804dfbf2787fb3ad4c849d2e71f54"
+    },
+    {
+      "path": "skills/suh-image9/references/directors/director-francis-ford-coppola.md",
+      "bytes": 941,
+      "sha256": "42078cc4f55809e99ef25a2639d853fc451df35916c7598dff7447e574b94268"
+    },
+    {
+      "path": "skills/suh-image9/references/directors/director-hirokazu-koreeda.md",
+      "bytes": 913,
+      "sha256": "be7bf8224f2c2283128ccab7608901b19159325df82b5f308a3ac03bece3983c"
+    },
+    {
+      "path": "skills/suh-image9/references/directors/director-hou-hsiao-hsien.md",
+      "bytes": 934,
+      "sha256": "e213944ca6bddb641a7a5c71ec8a83834c7fe5b9aa044ecbc8f05f5cd2744b6f"
+    },
+    {
+      "path": "skills/suh-image9/references/directors/director-paolo-sorrentino.md",
+      "bytes": 891,
+      "sha256": "1f840fe20261f2bc7e7d4cd035fc5a83b0801fc2ff3a0d139ef8b5a494d3c64c"
+    },
+    {
+      "path": "skills/suh-image9/references/directors/director-park-chan-wook.md",
+      "bytes": 967,
+      "sha256": "ea84c8cdb337feeba5e909c2774afb3261413050d5e2df455a064005717c30e6"
+    },
+    {
+      "path": "skills/suh-image9/references/directors/director-quentin-tarantino.md",
+      "bytes": 951,
+      "sha256": "a7be64b54bb9fe9a7e3afb83779970ebf47e8f1e5dfc02b7c2d5f850e8057eb1"
+    },
+    {
+      "path": "skills/suh-image9/references/directors/director-stanley-kubrick.md",
+      "bytes": 939,
+      "sha256": "5893c2bd4d100e9d5da42277653688d4cf47491ab7f803b20f36620006502222"
+    },
+    {
+      "path": "skills/suh-image9/references/directors/director-steven-spielberg.md",
+      "bytes": 996,
+      "sha256": "790dddeaf8fca1ae4ead54f829509d9d90e132d0f4c4bc6fa00e397898a6781f"
+    },
+    {
+      "path": "skills/suh-image9/references/directors/director-wes-anderson.md",
+      "bytes": 879,
+      "sha256": "25f19c0ea44b4d30a92aba3cdcca102bf1c7b4a8b4c6a5bdf26f474de48c77cf"
+    },
+    {
+      "path": "skills/suh-image9/references/directors/director-wong-kar-wai.md",
+      "bytes": 967,
+      "sha256": "1879e0ebcbe1a1e443610d99504c207f06ab4d2639f262d36eab8a42037b761e"
+    },
+    {
+      "path": "skills/suh-image9/references/speech-and-dialogue.md",
+      "bytes": 6999,
+      "sha256": "db902d8bf39b64577ebb567169a7d51e0a3db810d58cb793eef41aad402018a8"
+    },
+    {
+      "path": "skills/suh-image9/scripts/Review-workbook.mjs",
+      "bytes": 4417,
+      "sha256": "a2efeccdb875aac071e50932449254a80e8402e6d874668c432222f911b712d6"
+    },
+    {
+      "path": "skills/suh-image9/scripts/deliver.py",
+      "bytes": 9931,
+      "sha256": "9e6d689a728b8c532baab3ceab341a47ac2189f9c89440fe242e60cc04a52d0b"
+    },
+    {
+      "path": "skills/suh-image9/scripts/media_flow.py",
+      "bytes": 42560,
+      "sha256": "b35737dc2c2af8dbd3960570231376e8f77af677efbbf48ccfe1b62efbf5699d"
+    },
+    {
+      "path": "skills/suh-image9/scripts/review_delivery.py",
+      "bytes": 23672,
+      "sha256": "6c7ccda9a0390207f3ffb2043d187f71f01ff5c62402b32f5b65e8b5329733da"
+    },
+    {
+      "path": "skills/suh-image9/scripts/sum_duration_ranges.py",
+      "bytes": 1503,
+      "sha256": "3e7ccb143410e4d35fef18ed2a4bf399463625596b057ef17cc75483de5bf4fa"
+    },
+    {
+      "path": "skills/suh-image9/scripts/workflow_state.py",
+      "bytes": 23420,
+      "sha256": "a6ca0b3136337c775f73d84f8015902b9744d9552b8502d7b414f53b203a561a"
+    },
+    {
+      "path": "skills/suh-image9/templates/Previs.md",
+      "bytes": 4896,
+      "sha256": "a4f95055b9cd407e147841bbbe260674f71f78e8a7740ac73f6cbb6a55985ea9"
+    },
+    {
+      "path": "skills/suh-promptskill/CHANGELOG.md",
+      "bytes": 5305,
+      "sha256": "1daa95cbabfe36191a3d5d7195e1b947b90f5804f33e4876126dca06b8ceccd0"
+    },
+    {
+      "path": "skills/suh-promptskill/SKILL.md",
+      "bytes": 6378,
+      "sha256": "d0c2bf08a10853edd615336615f7fe04fb7666714f08b26f4c424ab2119a0e5d"
+    },
+    {
+      "path": "skills/suh-promptskill/VALIDATION.md",
+      "bytes": 3887,
+      "sha256": "d82c37ad744c2cc87c6ea22e21e8fba5f6cd631b6b52d690c21d0d0c165c8ecf"
+    },
+    {
+      "path": "skills/suh-promptskill/VERSION",
+      "bytes": 39,
+      "sha256": "20525239739f1bc1b4a3c8b668d3ee143faee322a1399cf0a7b6bbde41bd3976"
+    },
+    {
+      "path": "skills/suh-promptskill/agents/openai.yaml",
+      "bytes": 353,
+      "sha256": "ed76f80feba3cb24ba6462b50b393e75902660c2632c00cd99a57808b699ee34"
+    },
+    {
+      "path": "skills/suh-promptskill/examples/Composite-repair.md",
+      "bytes": 4873,
+      "sha256": "a7a8afa9ce2dc8bbdb02b57eac016a1c2935aad682e7b775968cec758ff12fb3"
+    },
+    {
+      "path": "skills/suh-promptskill/examples/Dialogue-fragments.json",
+      "bytes": 1161,
+      "sha256": "217d261933da311b97de45e1331751e126faacb18fdf1fb6f11b195579627b11"
+    },
+    {
+      "path": "skills/suh-promptskill/examples/Independent-scene.md",
+      "bytes": 7524,
+      "sha256": "e97fc54a010077f5c901f0e4856c6f08a30324c763c665184eb4fa47320e850d"
+    },
+    {
+      "path": "skills/suh-promptskill/examples/Performance-continuity.md",
+      "bytes": 3304,
+      "sha256": "db116453499ca442084c97c1e120284239950c216cc183947f1b0a6d68ce2985"
+    },
+    {
+      "path": "skills/suh-promptskill/examples/Prompt-worked-example.md",
+      "bytes": 11896,
+      "sha256": "9bff0199e89c547e915b669398b8845665c6162b46de101e160181945f4fb320"
+    },
+    {
+      "path": "skills/suh-promptskill/examples/Workflow-continuation.md",
+      "bytes": 7289,
+      "sha256": "864925f813a5b57cb0646c36e806bbe0fb79a775af755ae4fd16984745adc4eb"
+    },
+    {
+      "path": "skills/suh-promptskill/examples/Workflow-examples.md",
+      "bytes": 1025,
+      "sha256": "b5e282f3f0c35a0414c659326bbd71928cd005110ec3d5d046cba49dc0e3da2a"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Active-context.md",
+      "bytes": 4465,
+      "sha256": "3424562202c9911d063525ab87890e041700131ae6629240a08b9715580646ef"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Assets-and-tasks.md",
+      "bytes": 9823,
+      "sha256": "e3251055fa539b63fcac6b2245c2dc37b6636d8fdcc703e56217362ec7c4579d"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Delivery-tool.md",
+      "bytes": 9145,
+      "sha256": "00a04c3534796254d402aa920f30000dd0c8fdd1993a72429c05e75f787b2850"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Dp-reference.md",
+      "bytes": 26636,
+      "sha256": "f2a4e650978bdab3fb0dcfa140a1ddb70383870fd322233f66f7d485bae207c9"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Generation-executability.md",
+      "bytes": 3897,
+      "sha256": "a38bd239c46d07881659374c6e043f72d0c4c58d182a4191981c9d0d6caffa9c"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Generation-profile.json",
+      "bytes": 561,
+      "sha256": "a7a129e10b397598e14e225be36029cda21f41e06aaebb797d1d689b3f7c8372"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Handoff.md",
+      "bytes": 8159,
+      "sha256": "c87d966364e907d9205a3c0deda91bf094e5ab757175869bcdd8e9577e208c83"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Input-and-segmentation.md",
+      "bytes": 4486,
+      "sha256": "9e24cb40e10972c11acd3337aee536bddfbfb3e5d8c383a3b816119ff1d80b04"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Media-review-and-export.md",
+      "bytes": 7560,
+      "sha256": "a1fa532e85327012a38f503f85c2b99f3d7372b5e31c6f98be9f9250d3bd6b1e"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Official-rule-adaptation.md",
+      "bytes": 3825,
+      "sha256": "2e6cec3c66aa0b480ea0a9a5b4e77a03e9a079eca4c0b60bff05f381afed9543"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Optics-and-viewing.md",
+      "bytes": 3410,
+      "sha256": "001ad322244da075f66eca3adfa984c9bf6c1fae9a9dda7e3e13a537738cc7d4"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Output-format.md",
+      "bytes": 7892,
+      "sha256": "44ba2c4f461b306a78758358fb37386e444129fbccd48b88c76bf527c0bea76b"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Performance-continuity.md",
+      "bytes": 5495,
+      "sha256": "8abd230db9dad6876352d7e086d0d33dbe24976ab8d01f3649fb936f63023131"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Project-bible.md",
+      "bytes": 2137,
+      "sha256": "a1574d8a6f6e68ab5a757386d6f16405fa32900fcaecf0654b1a713ac20c0769"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Review-delivery.md",
+      "bytes": 5763,
+      "sha256": "dfea65173a6f74e6716bc16a496c2eb668b08c2de814c47009349e05479f6fbf"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Spatial-basis.md",
+      "bytes": 3258,
+      "sha256": "7d6752365877d98d73798d251b8ea42a07995776587590bbd2e030042ae96b72"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Workflow-state.md",
+      "bytes": 6464,
+      "sha256": "8e3f8fac2a4c061d761335882df54bc67761858c6eeeb15843424c99cc5a08d8"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Workflow.md",
+      "bytes": 17825,
+      "sha256": "9127a35ee7aed602c315dd4a92e9561941e416a003f83c32923a35793e9d38de"
+    },
+    {
+      "path": "skills/suh-promptskill/references/Writing-and-continuity.md",
+      "bytes": 14048,
+      "sha256": "47f98e97a337d27a3ce9aafb0959d031971f04205c2c1f84722db1ad651b6853"
+    },
+    {
+      "path": "skills/suh-promptskill/references/director-methods.md",
+      "bytes": 3167,
+      "sha256": "58ae057a55344bb393b6735c40f4a3164b4d3ab6fa1ba8d247f68e865577e966"
+    },
+    {
+      "path": "skills/suh-promptskill/references/directors/director-bong-joon-ho.md",
+      "bytes": 973,
+      "sha256": "8b313c70a811f3dd63297b9b8cdb7ece2e1801beea6d4c6d514f57e9b8d64969"
+    },
+    {
+      "path": "skills/suh-promptskill/references/directors/director-christopher-nolan.md",
+      "bytes": 1077,
+      "sha256": "d4fe64163dda99a42492ac9c6c2ca7c19a549a0c6b31167842e86a629f1dd5c9"
+    },
+    {
+      "path": "skills/suh-promptskill/references/directors/director-coen-brothers.md",
+      "bytes": 919,
+      "sha256": "bfba67b7e74a3319f8883c9e409c65641706cde8dd832c77f432ccd22fc7d787"
+    },
+    {
+      "path": "skills/suh-promptskill/references/directors/director-david-fincher.md",
+      "bytes": 1038,
+      "sha256": "bd8fe13d568165a76b96265eed45a3dfecd53de25d6c81cafa02d683abbd729c"
+    },
+    {
+      "path": "skills/suh-promptskill/references/directors/director-david-lynch.md",
+      "bytes": 966,
+      "sha256": "025d0a543c6e5e8a42840ea95e3ac0a437d616d4d0525ac88da41fb0caa89523"
+    },
+    {
+      "path": "skills/suh-promptskill/references/directors/director-denis-villeneuve.md",
+      "bytes": 951,
+      "sha256": "7c1d059e953e5b33e78a042b7c7ed9f21f8804dfbf2787fb3ad4c849d2e71f54"
+    },
+    {
+      "path": "skills/suh-promptskill/references/directors/director-francis-ford-coppola.md",
+      "bytes": 941,
+      "sha256": "42078cc4f55809e99ef25a2639d853fc451df35916c7598dff7447e574b94268"
+    },
+    {
+      "path": "skills/suh-promptskill/references/directors/director-hirokazu-koreeda.md",
+      "bytes": 913,
+      "sha256": "be7bf8224f2c2283128ccab7608901b19159325df82b5f308a3ac03bece3983c"
+    },
+    {
+      "path": "skills/suh-promptskill/references/directors/director-hou-hsiao-hsien.md",
+      "bytes": 934,
+      "sha256": "e213944ca6bddb641a7a5c71ec8a83834c7fe5b9aa044ecbc8f05f5cd2744b6f"
+    },
+    {
+      "path": "skills/suh-promptskill/references/directors/director-paolo-sorrentino.md",
+      "bytes": 891,
+      "sha256": "1f840fe20261f2bc7e7d4cd035fc5a83b0801fc2ff3a0d139ef8b5a494d3c64c"
+    },
+    {
+      "path": "skills/suh-promptskill/references/directors/director-park-chan-wook.md",
+      "bytes": 967,
+      "sha256": "ea84c8cdb337feeba5e909c2774afb3261413050d5e2df455a064005717c30e6"
+    },
+    {
+      "path": "skills/suh-promptskill/references/directors/director-quentin-tarantino.md",
+      "bytes": 951,
+      "sha256": "a7be64b54bb9fe9a7e3afb83779970ebf47e8f1e5dfc02b7c2d5f850e8057eb1"
+    },
+    {
+      "path": "skills/suh-promptskill/references/directors/director-stanley-kubrick.md",
+      "bytes": 939,
+      "sha256": "5893c2bd4d100e9d5da42277653688d4cf47491ab7f803b20f36620006502222"
+    },
+    {
+      "path": "skills/suh-promptskill/references/directors/director-steven-spielberg.md",
+      "bytes": 996,
+      "sha256": "790dddeaf8fca1ae4ead54f829509d9d90e132d0f4c4bc6fa00e397898a6781f"
+    },
+    {
+      "path": "skills/suh-promptskill/references/directors/director-wes-anderson.md",
+      "bytes": 879,
+      "sha256": "25f19c0ea44b4d30a92aba3cdcca102bf1c7b4a8b4c6a5bdf26f474de48c77cf"
+    },
+    {
+      "path": "skills/suh-promptskill/references/directors/director-wong-kar-wai.md",
+      "bytes": 967,
+      "sha256": "1879e0ebcbe1a1e443610d99504c207f06ab4d2639f262d36eab8a42037b761e"
+    },
+    {
+      "path": "skills/suh-promptskill/references/speech-and-dialogue.md",
+      "bytes": 6999,
+      "sha256": "db902d8bf39b64577ebb567169a7d51e0a3db810d58cb793eef41aad402018a8"
+    },
+    {
+      "path": "skills/suh-promptskill/scripts/Review-workbook.mjs",
+      "bytes": 4417,
+      "sha256": "a2efeccdb875aac071e50932449254a80e8402e6d874668c432222f911b712d6"
+    },
+    {
+      "path": "skills/suh-promptskill/scripts/check_prompt_contract.py",
+      "bytes": 19865,
+      "sha256": "b308306e35762cd8a23d6495bd7b57910fde6b5dc65015781ac66cc2a0b1fd4d"
+    },
+    {
+      "path": "skills/suh-promptskill/scripts/deliver.py",
+      "bytes": 9931,
+      "sha256": "9e6d689a728b8c532baab3ceab341a47ac2189f9c89440fe242e60cc04a52d0b"
+    },
+    {
+      "path": "skills/suh-promptskill/scripts/review_delivery.py",
+      "bytes": 23672,
+      "sha256": "6c7ccda9a0390207f3ffb2043d187f71f01ff5c62402b32f5b65e8b5329733da"
+    },
+    {
+      "path": "skills/suh-promptskill/scripts/save_prompts.py",
+      "bytes": 5074,
+      "sha256": "f3392500a085d518a6f629f0f24dee2a0fadbe9bcb50870394a4925e1cc65323"
+    },
+    {
+      "path": "skills/suh-promptskill/scripts/sum_duration_ranges.py",
+      "bytes": 1503,
+      "sha256": "3e7ccb143410e4d35fef18ed2a4bf399463625596b057ef17cc75483de5bf4fa"
+    },
+    {
+      "path": "skills/suh-promptskill/scripts/workflow_state.py",
+      "bytes": 23420,
+      "sha256": "a6ca0b3136337c775f73d84f8015902b9744d9552b8502d7b414f53b203a561a"
+    },
+    {
+      "path": "skills/suh-promptskill/templates/Prompt-master.md",
+      "bytes": 3628,
+      "sha256": "5ab6052e439d50b577578bdb8401ee17c7cd3ca010f79f2d8afdb8efc21f708a"
+    }
+  ]
+}
